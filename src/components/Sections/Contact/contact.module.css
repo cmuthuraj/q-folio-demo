@@ -1,0 +1,47 @@
+.contactWrapper {
+  scroll-margin-top: 7vh;
+  height: 93vh;
+}
+
+.contactBgSection {
+  position: absolute;
+  z-index: -1;
+  height: 93vh;
+  width: 100%;
+  left: 0;
+}
+
+.contactBgSection span:first-child {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.contactBg {
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contactHeading {
+  padding-top: 32px;
+}
+
+.contactCardWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contactCard {
+  max-width: 275px;
+  border-radius: 0;
+  border-top-right-radius: 50px;
+  padding: 20px;
+}

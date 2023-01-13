@@ -1,0 +1,21 @@
+.backgroundImage {
+  position: absolute;
+  z-index: -1;
+  animation: fadeInAnimation ease 3s;
+  animation-fill-mode: forwards;
+  background-color: rgba(142, 2, 2, 1);
+  background-image: url("/anton/bg.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

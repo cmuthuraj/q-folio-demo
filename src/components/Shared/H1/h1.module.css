@@ -1,0 +1,9 @@
+.h1Wrapper {
+  padding-bottom: 20px;
+}
+
+.h1Underline {
+  border-bottom: 3px solid #d0671c;
+  width: 75px;
+  margin-top: -10px;
+}

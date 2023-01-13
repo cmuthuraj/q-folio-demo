@@ -1,0 +1,42 @@
+.aboutWrapper {
+  padding: 32px 0 200px;
+  scroll-margin-top: 7vh;
+  background-color: rgba(217, 217, 217, 0.47);
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+}
+
+.sectionTitle {
+  color: #d0671c;
+}
+
+.contentWrap {
+  display: flex;
+}
+
+.textContent {
+  margin-left: 50px;
+}
+
+.textContent .sectionTitle,
+.textContent h1 {
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentWrap {
+    flex-direction: column;
+  }
+  .textContent {
+    margin-left: 0;
+  }
+
+  .textContent .sectionTitle,
+  .textContent h1 {
+    text-align: center !important;
+  }
+  .textContent h1 + div {
+    margin: auto !important;
+  }
+}

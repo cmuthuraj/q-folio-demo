@@ -1,0 +1,31 @@
+.qPhotoWrap {
+    position: relative;
+}
+
+.qPhotoDiv {
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    z-index: 2;
+}
+
+.qPhoto {
+    height: 100%;
+    width: 100%;
+}
+
+.qLogo {
+    width: 250px;
+    height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .qPhotoWrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .qPhotoDiv {
+        left: auto;
+    }
+  }

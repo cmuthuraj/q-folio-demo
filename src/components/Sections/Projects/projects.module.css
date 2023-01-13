@@ -1,0 +1,23 @@
+.projectsWrapper {
+  padding: 32px 0;
+  scroll-margin-top: 7vh;
+  background-color: rgba(217, 217, 217, 0.47);
+}
+
+.popupTitle {
+  color: #b21218;
+  font-size: 20px;
+}
+
+.popupSubTitle {
+  color: #b21218;
+  font-size: 16px;
+}
+
+.popupRowHeading {
+  color: #958f87;
+}
+
+.popupContent {
+  font-size: 14px;
+}

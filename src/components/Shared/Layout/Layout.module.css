@@ -1,0 +1,20 @@
+.backgroundImage {
+  position: absolute;
+  z-index: -1;
+  animation: fadeInAnimation ease 0.5s;
+  animation-fill-mode: forwards;
+  background: #fff;
+  background-position: center bottom;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
